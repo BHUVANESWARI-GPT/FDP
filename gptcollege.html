@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My College</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; color: #333; }
+    header { background: #004080; color: #fff; padding: 20px; text-align: center; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; }
+    .hero { background: url('college.jpg') center/cover no-repeat; height: 300px; display:flex; align-items:center; justify-content:center; color:#fff; font-size:2em; }
+    .section { padding: 40px 20px; max-width:1000px; margin:auto; }
+    .courses { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 20px; }
+    .course { border:1px solid #ddd; border-radius:4px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,0.1); }
+    footer { background:#222; color:#bbb; text-align:center; padding:15px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>My College</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  Welcome to My College
+</section>
+
+<section class="section" id="courses">
+  <h2>Our Courses</h2>
+  <div class="courses">
+    <div class="course">
+      <h3>Bachelor of Science</h3>
+      <p>Explore the basics of Physics, Chemistry, Biology, and Mathematics.</p>
+    </div>
+    <div class="course">
+      <h3>Bachelor of Arts</h3>
+      <p>Dive into literature, history, languages, and more.</p>
+    </div>
+    <div class="course">
+      <h3>Diploma in Computer Applications</h3>
+      <p>Learn programming, databases, networking, and software development.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: info@mycollege.edu | Phone: +91‑123‑456‑7890</p>
+</section>
+
+<footer>
+  &copy; 2025 My College. All rights reserved.
+</footer>
+
+</body>
+</html>
